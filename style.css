@@ -1,0 +1,9 @@
+*{
+    border: dashed 1px red;
+}
+main {
+    display: flex;
+}
+.content{
+    flex:1;
+}
