@@ -1,9 +1,25 @@
 *{
-    border: dashed 1px red;
+     align-items: center; /* strzałki na środku obrazka*/
 }
 main {
     display: flex;
 }
 .content{
     flex:1;
+    display: flex;
+    justify-content: center;
+    
+}
+.leftArr,
+.rightArr {
+    border: dashed 1px red;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+footer{
+    text-align: right;
+    margin-top: 10%;
 }
