@@ -1,0 +1,19 @@
+{
+  "name": "powtmc",
+  "version": "1.0.0",
+  "description": "test github",
+  "main": "old_script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamasza/powtMC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mamasza/powtMC/issues"
+  },
+  "homepage": "https://github.com/mamasza/powtMC#readme"
+}

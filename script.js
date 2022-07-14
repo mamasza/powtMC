@@ -9,6 +9,8 @@ const data =[
       src: "3.webp",
     }
 ]
+
+
 function changeHTMLInfo(index){
     
     const title = data[index].title;
@@ -23,6 +25,7 @@ function changeHTMLInfo(index){
 
     const lewaDOM = document.querySelector('.leftArr');
     lewaDOM.onclick =function(){
+       
         index--;
         if (index < 0) index = 2
         changeHTMLInfo(index);
@@ -35,4 +38,5 @@ function changeHTMLInfo(index){
         changeHTMLInfo(index);
     }
 }
-changeHTMLInfo(1)
+let currSLide = 2
+changeHTMLInfo(currSLide)
